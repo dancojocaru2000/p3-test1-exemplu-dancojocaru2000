@@ -1,0 +1,44 @@
+{
+  "tests": [
+    {
+      "name": "Test clasa",
+      "setup": "javac -cp junit4.jar:. src/*.java -d .",
+      "run": "java -cp junit4.jar:. TestClasa",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test afisare 1",
+      "setup": "javac -cp junit4.jar:. src/*.java -d .",
+      "run": "java -cp junit4.jar:. TestAfisare1",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test afisare 2",
+      "setup": "javac -cp junit4.jar:. src/*.java -d .",
+      "run": "java -cp junit4.jar:. TestAfisare2",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "Test numara",
+      "setup": "javac -cp junit4.jar:. src/*.java -d .",
+      "run": "java -cp junit4.jar:. TestNumara",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 3
+    }
+  ]
+}
