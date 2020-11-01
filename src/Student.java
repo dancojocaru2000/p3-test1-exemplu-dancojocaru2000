@@ -2,7 +2,7 @@ public class Student {
     private int varsta;
     private String nume;
 
-    Student(String nume, Integer varsta) {
+    Student(String nume, int varsta) {
         this.nume = nume;
         this.varsta = varsta;
     }
